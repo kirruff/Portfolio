@@ -1,0 +1,83 @@
+h1 {
+  color:#f24848;text-align:center;font-size:50px;font-family:courier;
+}
+p1 {
+  color:black; font-size:16px;
+ }
+h2 {
+  font-size:20px;
+}
+body {
+  font-family: georgia;padding-left:2cm;padding-right:2cm;text-align:center;
+}
+th,td {
+    text-align: center;
+    padding-left:13cm;
+}
+@font-face {
+  font-family:"cursive";
+  src:url("eminenz.ttf");
+  font-weight:normal;
+}
+#likes {
+  font-family: "cursive";
+}
+#dislikes{
+  font-family: "cursive";
+  padding-left:0px;
+}
+h3 {
+  font-family: "cursive";
+}
+h2 {
+  font-family: "cursive";
+}
+#likes1 {
+  padding-right:0px;
+}
+#dislikes1 {
+  padding-left:0px;
+}
+hr {
+  color:white ;
+  padding:0;
+  height: 2px;
+  border: solid;
+  margin:0px;
+}
+#cruise {
+  float:center;
+  padding-right:5px;
+}
+#cake {
+  float:center;
+  padding-left:5px;
+}
+#madlibs {
+    width: 200px;
+    height:130px;
+    border: 5px solid #BC47F2;
+    padding: 25px;
+    margin: 25px;
+    }
+
+#personalityQuiz {
+    width: 200px;
+    height:130px;
+    border: 5px solid #84b5a0;
+    padding: 25px;
+    margin: 25px;
+  }
+#links {
+  align-items: horizontal;
+}
+#translator {
+  width: 200px;
+  height:130px;
+  border: 5px solid #F7A71A;
+  padding: 25px;
+  margin: 25px;
+}
+#links {
+  position:horizontal;
+}
