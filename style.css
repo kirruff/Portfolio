@@ -8,7 +8,10 @@ h2 {
   font-size:20px;
 }
 body {
-  font-family: georgia;padding-left:2cm;padding-right:2cm;text-align:center;
+  font-family: georgia;
+  padding-left:2cm;
+  padding-right:2cm;
+  text-align:center;
 }
 th,td {
     text-align: center;
@@ -48,10 +51,12 @@ hr {
 #cruise {
   float:center;
   padding-right:5px;
+
 }
 #cake {
   float:center;
   padding-left:5px;
+
 }
 #madlibs {
     width: 200px;
@@ -59,25 +64,111 @@ hr {
     border: 5px solid #BC47F2;
     padding: 25px;
     margin: 25px;
+position:relative;
+right:400px;
+bottom:165px;
     }
-
 #personalityQuiz {
     width: 200px;
     height:130px;
     border: 5px solid #84b5a0;
     padding: 25px;
     margin: 25px;
+position:relative;
+right:50px;
+bottom:410px;
   }
-#links {
-  align-items: horizontal;
-}
 #translator {
   width: 200px;
   height:130px;
   border: 5px solid #F7A71A;
   padding: 25px;
   margin: 25px;
+position:relative;
+left:300px;
+bottom:655px;
 }
-#links {
-  position:horizontal;
+
+h2 {
+    overflow: hidden;
+    text-align: center;
 }
+h2:before,
+h2:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+h3 {
+    overflow: hidden;
+    text-align: center;
+}
+h3:before,
+h3:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+#likes {
+    overflow: hidden;
+    text-align: center;
+}
+
+#dislikes {
+    overflow: hidden;
+    text-align: center;
+    }
+
+
+}
+ ul {
+   padding-left:0;
+    }
+
+ul li{
+      list-style-position:inside;
+    }
+
+  #finalProject {
+      width: 905px;
+      height:50px;
+      border: 5px solid #FF3B3E;
+      padding: 25px;
+      position:relative;
+      top:210px;
+      left:115px;
+      padding-bottom:38px;
+    }
+
+button {
+  font-family: Georgia;
+  font-size:16px;
+}
+ .spotlight {
+   position:relative;
+   bottom: 490px;
+ }
