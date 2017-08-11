@@ -162,6 +162,7 @@ ul li{
       top:210px;
       left:115px;
       padding-bottom:38px;
+
     }
 
 button {
@@ -171,4 +172,5 @@ button {
  .spotlight {
    position:relative;
    bottom: 490px;
+   white-space: nowrap;
  }
